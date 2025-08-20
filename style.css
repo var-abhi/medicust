@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --light-blue: #0088FF;
+    --dark-blue: #0A2E72;
+    --green: #00FFC0;
+    --orange:#FF9000;
+    --grey:#5E6F8E;
+    --light-grey:#454D5D;
+    --ubuntu: "ubuntu", sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--ubuntu);
+}
+.header-bg{
+    background-image: url(/images/headerbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+.header-button{
+    border: none;
+    border-radius: 30px;
+}
+.header-button i{
+    color: white;
+    font-size: 1.3rem;
+
+}
+nav ul li{
+    font-size: 1.2rem;
+}
+nav ul li:hover{
+    font-size: 1.3rem;
+    transition: all 0.5s ease-in-out;
+    color: var(--green);
+    cursor: pointer;
+
+}
+.btn{
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0.9rem 1.5rem;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    color: var(--light-blue);
+    background-color: white;
+}
+ 
+/* BANNER SECTION START HERE  */
+.banner-container {
+    background-image: url(/images/bannerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.banner-left-items{
+    height: 100vh;
+}
+.banner-left-items span{
+    font-size: 1.941vw;
+    font-weight: 500;
+    color: var(--light-blue)
+}
+.banner-left-items h1{
+    font-size: 5.047vw;
+    font-weight: 700;
+    color: var(--dark-blue)
+}
+.banner-left-items p{
+    font-size: 1.553vw;
+    font-weight: 400;
+    color: var(--light-grey)
+}
+.third-section{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.third-section h2{
+        font-size: 2.547vw;
+    font-weight: 700;
+    color: var(--dark-blue)
+}
+
+
+.department-box div h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--dark-blue);
+
+}
+.department-box div p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--light-grey);
+ line-height: 1.8rem;
+}
+.first-icon-line div{
+    border: 2px solid  #EFF3F6;
+}
+.first-icon-line div h3{
+    color: var(--dark-blue);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+.health-care-items{
+    background-color: var(--dark-blue);
+}
+.h-left-item h5{
+    color: var(--green);
+    font-weight: 400;
+}
+.h-left-item h2{
+    color: white;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+
+.doctors-lists h2{
+     color: var(--dark-blue);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.doctors-lists p{
+   font-size: 1rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+.profile{
+    border: 3px solid #F8F8F8;
+    padding: 0px;
+    border-radius: 20px;
+    width: 291px;
+    height: 328px;
+}
+.profile img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.profile h3{
+         color: var(--dark-blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.profile p{
+         color: var(--dark-blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--light-blue);
+}
+.join-us{
+    background-color: var(--light-blue);
+}
+.join-us h2{
+    font-size: 1.7rem;
+    color: white;
+}
+.join-us p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+.plus{
+    background-color: var(--orange);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.contact-info{
+    background-color: var(--light-blue);
+}
+
+
+.challange div h2{
+        color: var(--dark-blue);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.contact{
+        font-size: 1.941vw;
+    font-weight: 500;
+    color: var(--light-blue)
+}
+.about h3{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+.about p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.reviews h2{
+      color: var(--dark-blue);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.reviews p{
+      font-size: 1rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+
+.updates{
+    background-image: url(/images/Bg\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.updates h1{
+      color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.updates p{
+      font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+footer{
+    background-image: url(/images/3.png);
+    color: white;
+    
+}
+footer i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+footer h4{
+       font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    cursor: pointer;
+}

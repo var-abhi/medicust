@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 100%;
+    }
+
+    .h-left-item h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+}
